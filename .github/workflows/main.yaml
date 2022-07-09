@@ -6,7 +6,7 @@ name: Getting Started
 # events but only for the main branch
 on:
   push:
-    branches: [ change-to-main ]
+    branches: [ main ]
   pull_request:
     branches: [ main ]
     
